@@ -27,7 +27,7 @@ javascript:(function(){
 		}
 	}
 
-	fetch('https://raw.githubusercontent.com/lunakoly/PolitHack/master/polit.json')
+	fetch('https://raw.githubusercontent.com/IvanHaritonow/Politology/master/polit.json')
 	    .then(res => res.json())
 	    .then(addLabels)
 	    .catch(err => console.error(err));
